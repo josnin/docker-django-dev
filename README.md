@@ -13,7 +13,7 @@ drwxrwxr-x. 3 josnin josnin 4096 Mar 14 10:33 testdjango
 
 ### Run django dev server (Used --net=host to use host network)
 ```
-[jose@localhost docker-django-dev]$ docker run -it --net=host --rm -w /app/testdjango josnin/django-dev:v1
+[josnin@localhost docker-django-dev]$ docker run -it --net=host --rm -w /app/testdjango josnin/django-dev:v1
 Watching for file changes with StatReloader
 Performing system checks...
 
